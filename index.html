@@ -1,8 +1,89 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <header>
-            <img src="images/Enchanted Library.gif">
-        </header>
+        <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="style.css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     </head>
+
+  <body>
+
+        <div class="sticky-container">
+ <!--Header + logo -->
+        <header>
+        <img src="images/Enchanted Library.gif" alt="Logo"  style="width:280px;" class="rounded-pill">
+        </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="by_authors-component/by_authors.html" target="_blank">By Authors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="by_category-component/by_category.html" target="_blank">By Category</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+    </div>     
+<!--Body-->
+<div class="body-container">
+<div class="container mt-3">
+    <h2>Card Image</h2>
+    <div class="card" style="width:200px">
+      <img class="card-img-top" src="images/the-book-thief.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">"The book thief"-Markus Zusak</h4>
+        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <a href="#" class="btn btn-primary">See Book</a>
+      </div>
+    </div>
+ <br>    
+    <div class="card" style="width:200px">
+      <div class="card-body">
+        <h4 class="card-title">"Wuthering Heights"-Emily Bronte</h4>
+        <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+        <a href="#" class="btn btn-primary">See Book</a>
+      </div>
+      <img class="card-img-bottom" src="images/wuthering_heights.jpg" alt="Card image" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer>
+    <p>About us:</p>
+    <br>
+    <br>
+    <table class="table table-condensed">
+        <thead>
+          <tr>
+              <th>Address: </th>
+              <td> Dragon Tail Street , no. 5</td>
+         </tr>
+        </thead>  
+        <tbody>
+            <tr>
+                <th>Email:</th>
+                <td><a href="mailto:enchanted.library@mail.com">enchanted.library@mail.com </a></td>
+            </tr>
+            <tr>
+                <th>Contact:</th>
+                <td><a href="phoneto:+02590374">+02590374</a> </td>
+            </tr>
+        </tbody>   
+        
+    </table>   
+        <!--Social media buttons-->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </footer>
 </html>
