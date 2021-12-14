@@ -1,0 +1,65 @@
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="style.css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+
+    <div class="sticky-container">
+<!--Header + logo -->
+    <header>
+    <img src="C:\Users\Sabina\OneDrive\Desktop\Repositories\Enchanted-Library\images\Enchanted Library.gif" alt="Logo"  style="width:280px;" class="rounded-pill">
+    </header>
+    </div>
+<!--Body-->
+
+    <form ng-app="" name="myForm">
+        Email:
+        <input type="email" name="myAddress" ng-model="text">
+        <span ng-show="myForm.myAddress.$error.email">Not a valid e-mail address</span>
+        <br>
+        Password:
+        <input type="password" name="myPassword"  required #password="ngModel">
+        <small [hidden]="password.valid || (password.pristine && !f.submitted)">
+        </small>
+    </form>
+
+</body>
+
+<!--Footer-->
+<footer>
+    <p>About us:</p>
+    <br>
+    <br>
+    <table class="table table-condensed">
+        <thead>
+          <tr>
+              <th>Address: </th>
+              <td> Dragon Tail Street , no. 5</td>
+         </tr>
+        </thead>  
+        <tbody>
+            <tr>
+                <th>Email:</th>
+                <td><a href="mailto:enchanted.library@mail.com">enchanted.library@mail.com </a></td>
+            </tr>
+            <tr>
+                <th>Contact:</th>
+                <td><a href="phoneto:+02590374">+02590374</a> </td>
+            </tr>
+        </tbody>   
+        
+    </table>   
+        <!--Social media buttons-->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </footer>
+</html>
