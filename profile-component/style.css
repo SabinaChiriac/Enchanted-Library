@@ -5,14 +5,17 @@
     background-color: rgb(62, 122, 119);
     height: 300px;
   }
-  body{
+  .body-container{
     background: rgb(0, 92, 134);
     min-width: 400px;
+    min-height: 100%;
+    margin-bottom: -100px;
     overflow: auto;
-    font-size: 16px;
+    font-size: 18px;
   }
   footer {
     text-align: center;
+    height: 300px;
     position: bottom;
     padding: 3px;
     background-color: DarkSalmon;
@@ -42,4 +45,4 @@
   .fa-instagram {
     background: #125688;
     color: white;
-  }
+  } 

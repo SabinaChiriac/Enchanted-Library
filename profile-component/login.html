@@ -1,3 +1,4 @@
+
 <html>
     <head>
        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -20,6 +21,8 @@
     </div>
 <!--Body-->
 
+<div class="body-container">
+
     <form ng-app="" name="myForm">
         Email:
         <input type="email" name="myAddress" ng-model="text">
@@ -29,12 +32,14 @@
         <input type="password" name="myPassword"  required #password="ngModel">
         <small [hidden]="password.valid || (password.pristine && !f.submitted)">
         </small>
+        <br>
+        <a class="btn btn-info">Login</a>
     </form>
 
+</div>    
 </body>
-
-<!--Footer-->
-<footer>
+<!-- Footer-->
+ <footer>
     <p>About us:</p>
     <br>
     <br>
@@ -58,8 +63,8 @@
         
     </table>   
         <!--Social media buttons-->
-    <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-linkedin"></a>
     <a href="#" class="fa fa-instagram"></a>
-  </footer>
+  </footer> 
 </html>
