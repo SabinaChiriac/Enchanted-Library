@@ -5,18 +5,19 @@
     background-color: #41B3A3;
     height: 300px;
   }
-  .body-container{
+.navn{
+    background-color: #C38D9E;
+}
+
+.body-container {
     background: #E8A87C;
     min-width: 400px;
     min-height: 100%;
     overflow: auto;
-    font-size: 18px;
+    font-size: 16px;
   }
-  
   footer {
     text-align: center;
-    height: 300px;
-    position: bottom;
     padding: 3px;
     background-color: #E27D60;
     color: white;
@@ -45,4 +46,4 @@
   .fa-instagram {
     background: #125688;
     color: white;
-  } 
+  }
