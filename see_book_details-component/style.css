@@ -1,0 +1,54 @@
+.sticky-container {
+    padding: 15px;
+    top: 3;
+    position: sticky;
+    background-color: #41B3A3;
+    height: 300px;
+  }
+  .navbar{
+    background-color: #C38D9E;
+  }
+.cardid{
+  background-color: #85DCBA;
+}
+.btn{
+  background-color: #85DCBA;
+}
+.body-container {
+    background: #E8A87C;
+    min-width: 400px;
+    min-height: 100%;
+    overflow: auto;
+    font-size: 16px;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #E27D60;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
